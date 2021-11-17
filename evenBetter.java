@@ -8,6 +8,8 @@ public class evenBetter {
         Scanner guess = new Scanner(System.in);
 
         String playAgain = "g";
+        //Even though I want the program to keep running till the answer to "play again?" is "y"
+        //The reason I've set it to "g" is because I had just learnt that a do while first executes the command once and then checks the conditional statement
         System.out.println("A random number has been chosen between 0 and 100 (both included).\nYou have to guess what the number is.\nIf at any point you wish to quit, enter 123.");
 
         do {
