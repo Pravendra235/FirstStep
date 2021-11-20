@@ -37,8 +37,6 @@ public class evenBetter {
                 break;
             }
             playAgain = guess.next();
-//            num = (int)(Math.random()*100);
-//            g1= guess.nextInt();
         } while ("y".equals(playAgain));
         System.out.println("Goodbye!");
     }
